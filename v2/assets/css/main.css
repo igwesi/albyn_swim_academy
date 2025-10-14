@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.hero {
+  background-image: url("/v2//assets/Images/IMG_7907__msi___jpg.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.35);
+  background-blend-mode: overlay;
+}
+
+.about {
+  background-image: url("/v2/assets/Images/IMG_6188__msi___jpeg.jpeg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.35);
+  background-blend-mode: overlay;
+}
+
+.packages {
+  background-image: url("/v2/assets/Images/IMG_6214__msi___jpg.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.35);
+  background-blend-mode: overlay;
+}
+
+.contact {
+  background-image: url("/v2/assets/Images/UnderwaterYoungBoyFunintheSwimmingPoolwithGoggles.SummerVacationFun.copy.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.35);
+  background-blend-mode: overlay;
+}
+
+.overlay {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.overlay.active {
+  opacity: 1;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Merienda", cursive;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
